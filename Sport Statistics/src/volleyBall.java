@@ -12,7 +12,8 @@ public class volleyBall extends sportStatistics
 		System.out.println(" How many points would you like to play up to?");
 		int totalPoints= input.nextInt();
 		for (int Point=1;Point<=totalPoints;Point++)
-		{			
+		{//random number generator gives points to either you or opponent
+		//until one of them goes up to the points user enters in
 				int points = (int)(Math.random()*2);
 				if (points==0)
 				{
