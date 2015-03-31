@@ -1,5 +1,5 @@
 public class sportStatistics
-{
+{//super class
 	private int YourTotalPoints=0, opponentsTotalPoints=0;
 	public int getYourTotalPoints()
 	{
