@@ -6,7 +6,8 @@ public class tennis extends sportStatistics
 		super();
 	}
 	public void tennisStatistics()
-	{
+	{//this lasts for a certain number of games 
+	//each game contains four points and the amount of points will be added all together
 		int YouTotalPoints=0, opponTotalPoints=0;
 		Scanner input= new Scanner(System.in);
 		System.out.println(" How many games would you like to play up to?");
