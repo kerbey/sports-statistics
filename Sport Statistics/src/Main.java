@@ -1,7 +1,7 @@
 public class Main
 {
 	public static void main (String []args)
-	{
+	{//each sub class is a sport
 		System.out.println("Now looking at bowling statistics");
 		bowling bowl= new bowling();
 		bowl.bowlingStatistics();
